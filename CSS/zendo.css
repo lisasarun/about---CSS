@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+
+}
+html{
+    font-size:  62.5%;
+}
+body{
+    font-size:15px;
+    font-family: "Lato",sans-serif;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+ul{
+    list-style-type: none;
+}
+.navigation{
+    width: 100%;
+    background-color: red;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-left{
+    width: 30%;
+    background-color: burlywood;
+}
+.nav-center{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.nav-center>img{
+    width: 130px;
+    height: 30px;
+}
+.nav-right{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: chocolate;
+}
+.search-box{
+    height: 35px;
+    border: 2px solid brown;
+    padding: 0 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.search-box>input{
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left:8px ;
+    color: gray;
+    width: 130px;
+}
+.search-box>input:focus{
+    outline: none;
+}
+.nav-right>.list-nav>li{
+    display: flex;
+    align-items: center;
+}
+.nav-right>.list-nav>li>a>i{
+    font-size: 20px;
+}
+.list-nav{
+    display: flex;
+    gap: 5px;
+}
+.list-nav> li{
+    padding: 10px 15px;
+    background-color:white;
+}
+/* general style*/
+.container-width
+{
+    width: 1322px;
+    background-color: aqua;
+    margin: auto;
+}
+button {
+    background-color: goldenrod;
+    padding: 10px 20px;
+}
+button:hover {
+    background-color: chartreuse;
+}
+
